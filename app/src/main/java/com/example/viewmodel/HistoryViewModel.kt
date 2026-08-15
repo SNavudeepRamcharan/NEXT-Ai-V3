@@ -23,7 +23,7 @@ data class HistoryUiState(
     val selectedChatToRename: ChatSession? = null
 )
 
-class HistoryViewModel(
+class HistoryViewModel @JvmOverloads constructor(
     application: Application,
     private val chatRepository: ChatRepository = ChatRepository(),
     private val settingsRepository: SettingsRepository = SettingsRepository(application)

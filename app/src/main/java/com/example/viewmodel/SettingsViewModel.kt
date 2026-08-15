@@ -27,7 +27,7 @@ data class SettingsUiState(
     val memorySuccessMessage: String? = null
 )
 
-class SettingsViewModel(
+class SettingsViewModel @JvmOverloads constructor(
     application: Application,
     private val settingsRepository: SettingsRepository = SettingsRepository(application),
     private val chatRepository: ChatRepository = ChatRepository()

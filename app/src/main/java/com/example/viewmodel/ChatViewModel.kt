@@ -44,7 +44,7 @@ data class ChatUiState(
     val errorMessage: String? = null
 )
 
-class ChatViewModel(
+class ChatViewModel @JvmOverloads constructor(
     application: Application,
     private val chatRepository: ChatRepository = ChatRepository(),
     private val settingsRepository: SettingsRepository = SettingsRepository(application)
