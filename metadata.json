@@ -1,0 +1,6 @@
+{
+  "name": "NEXT AI",
+  "description": "Next-generation AI assistant client with streaming chat, dynamic model routing, multimodal vision, memory, and custom personas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

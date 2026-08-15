@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NEXT AI</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+    <string name="new_chat">New Chat</string>
+</resources>
